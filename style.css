@@ -1,0 +1,129 @@
+*,
+	*::before,
+	*::after{
+		box-sizing: border-box;
+	}
+	*:focus {
+		outline: none;
+	}
+	body{
+		padding: 0;
+		margin: 0;
+		background: grey;
+		color: white;
+		font-family: "Oxygen", sans-serif;
+
+	}
+	a {
+		text-decoration: none;
+	}
+	img {
+		width: 100%;
+	}
+	.mobile-nav {
+		text-align: center;
+		font-size: 50px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.mobile-nav a {
+		color: aliceblue;
+		border-radius: 20%;
+	}
+	.mobile-nav a:hover{
+		background-color: darkslateblue;
+	}
+
+	main {
+		max-width: 980px;
+		background: #000;
+		margin-left: 10%;
+		margin-right: 10%;
+		padding: 12px 50px 12px 50px;
+	}
+	header {
+		text-align: center;
+		letter-spacing: 2px;
+	}
+	header h1{
+		font-weight: bold;
+		font-size: 4em;
+		letter-spacing: 4px;
+	}
+	header h5{
+		font-weight: 300;
+		font-size: 1em;
+		letter-spacing: 4px;
+		color: #b2b2b2;
+	}
+	.about,
+	.folio,
+	.contact {
+		line-height: 1.5em;
+		letter-spacing: 1px;
+		font-weight: 300;
+		margin-left: 200px;
+		max-width: 980px;
+	}
+	.about h2,
+	.folio h2,
+	.contact h2{
+		font-weight: 300;
+		text-transform: uppercase;
+		padding-bottom: 10px;
+		margin: 100px 0 0 0;
+		letter-spacing: 4px;
+	}
+	.about p{
+		color: #b2b2b2;
+	}
+	.about span {
+		font-weight: 600;
+		color: white;
+	}
+	.about h3 {
+		font-weight: 300;
+		margin: 50px 0;
+	}
+	.container {
+		width: 100%;
+		background-color: #b2b2b2;
+	}
+	.skills {
+		text-align: right;
+		padding-right: 20px;
+		line-height: 30px;
+		color: white;
+		background-color: #424242;
+	}
+	.python {
+		width: 75%;
+	}
+	.rails {
+		width: 70%;
+	}
+	.mysql {
+		width: 60%;
+	}
+	.js {
+		width: 50%;
+	}
+	#name {
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+	#message {
+		height: 40px;
+	}
+	.top-bar a{
+		padding: 20px;
+		color: whitesmoke;
+		margin-bottom: 20%;
+	}
+	.bottom-bar p {
+		text-align: center;
+	}
+
+
+
+
