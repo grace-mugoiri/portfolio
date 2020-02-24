@@ -2,113 +2,86 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Grace Mugoiri Portfolio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="style.css" type="text/css">
-	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
-    <nav class="mobile-nav">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#folio">Folio</a>
-        <a href="#contact">Contact</a>
 
-    </nav>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-    <main>
-        <header class="home" id="home"><br><br>
-            <h1> Grace Mugoiri</h1>
-            <h5>Software Developer</h5>
-            <img src="thumb_IMG_20161014_203457_1024.jpg" alt="">
-        </header>
-    </main>
-    <section class="about" id="about">
-        <h2>About Me</h2>
-        <p>
-            <span>I am a Kenyan lady born and bread here. As a young girl I always wanted to be in the
-				hospitality industry but sometimes life comes with its plate served and I had to join the
-				technology world. My inspiration came from someone who started out so small but grew to be
-				one of the best Software Developers in the country. I started watching youtube tutorials and in
-				no time I could write my own application.
-			</span>
-        </p>
-        <p>add styling</p>
-        <p>
-            <span>
-				So far my area of expertise is working in the backend with Ruby On Rails and Python's flask framework.
-				Before joining <a href="https://www.microverse.org/?grsf=zgxlhq">Microverse </a> which is a remote school for software developers to either start
-					 or kick off your skills, I worked as an intern at Twiga Foods. I have greatly improved my skills with these
-					 two companies and also trying to help myself where I can with free learning facilities.
-			</span>
-        </p>
-        <h3>My Skills</h3>
-        <p>Python (Flask)</p>
-        <div class="container">
-            <div class="skills Python">80%</div>
-        </div>
-        <p>Ruby (Ruby on Rails)</p>
-        <div class="container">
-            <div class="skills rails">70%</div>
-        </div>
-        <p>MySQL</p>
-        <div class="container">
-            <div class="skills mysql">60%</div>
-        </div>
-        <p>Javascript (React & Redux)</p>
-        <div class="container">
-            <div class="skills js">50%</div>
-        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
-    </section>
-    <section class="folio" id="folio">
-        <h2>Folio</h2>
-        <div class="row-halves">
-			<div class="col">
-				<!-- <img src="thumb_IMG_20161014_203457_1024.jpg" alt=""> -->
-				<h3>Backend</h3>
-				<p>Build responsive websites and find solutions for the community</p>
+    <div class="wrapper">
+		<nav id="sidebar">
+			<div class="sidebar-header">
+				<h3>Side navbar</h3>
 			</div>
+			<ul class="unstyled-list components">
+				<p>Grace Mugoiri</p>
+				<li class="active">
+					<a href="#home" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+					<ul class="collapse list-unstyled" id="home">
+
+						<li>
+							<a href="#"> Home 2 </a>
+						</li>
+						<li>
+							<a href="#"> Home 3 </a>
+						</li>
+						<li>
+							<a href="#"> Home 4 </a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"> About </a>
+				</li>
+				<li>
+					<a href="#page" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+					<ul class="collapse list-unstyled" id="about">
+						<li>
+							<a href="#"> page  </a>
+						</li>
+						<li>
+							<a href="#"> page 1 </a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#"> Folio</a>
+				</li>
+				<li>
+					<a href="#"> Contact </a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="" id="content">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container-fluid">
+					<button class="btn btn-info" type="button" id="sidebarCollapse">
+						<i class="fas fa-align-left"></i>
+						<span>Toggle Menu</span>
+					</button>
+				</div>
+			</nav>
 		</div>
-    </section>
-    <section class="contact" id="contact">
-        <h2>Contact</h2>
-        <div class="container">
-            <form action="">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name">
-                <label for="name">E-mail</label>
-                <input type="text" id="email" name="email">
-                <label for="name">Message</label>
-                <textarea name="message" id="message"></textarea>
-                <input type="submit" value="message">
-			</form>
 
-			<section class="top-bar">
-				<a href="https://www.linkedin.com/in/grace-mugoiri-829019134/">
-					<i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
-				</a>
-
-				<a href="https://twitter.com/GraciaMugoiri">
-					<i class="fa fa-twitter fa-3x"></i>
-				</a>
-
-				<a href="https://github.com/grace-mugoiri">
-					<i class="fa fa-github fa-3x"></i>
-				</a>
-
-			</section>
-		</div>
-
-    </section>
-    <footer>
-
-        <section class="bottom-bar">
-            <p>&copy 2019 | All rights reserved</p>
-        </section>
-    </footer>
+	</div>
 
 </body>
+<script src="./index.js"></script>
 </html>
